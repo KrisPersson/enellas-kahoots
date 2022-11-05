@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/bf6a502775.js" crossorigin="anonymous"></script>
+    <title>Enellas Kahoots</title>
+</head>
+<body>
+    <header>
+        <h1>Enellas Kahoots!</h1>
+    </header>
+    <aside class="points-display">0</aside>
+    <button id="player-change">Ändra spelare</button>
+    <input id="checkbox" type="checkbox">
+
+    <aside class="highscore-display">
+        <i id="arrow-icon" class="fa-solid fa-caret-left"></i>
+        <h2>HIGHSCORE</h2>
+        <table>
+            <thead>
+                <tr class="table-header">
+                    <td></td>
+                    <td>Pos</td>
+                    <td>Namn</td>
+                    <td>P</td>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+
+    </aside>
+
+    <main>
+        <section class="main__start_screen">
+            <h2>Skriv in ditt namn och tryck på knappen för att starta!</h2>
+            <input id="start-screen__name-input" placeholder="Ditt namn" type="text">
+            <button class="start-screen__btn">STARTA</button>
+        </section>
+    </main>
+
+    <script src="js/questions.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
