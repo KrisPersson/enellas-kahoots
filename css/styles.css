@@ -14,6 +14,10 @@ body {
     background: linear-gradient(90deg, rgb(144, 202, 222), rgb(137, 196, 215));
     font-family: "Rubik", sans-serif;
     overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    
 }
 
 header {
@@ -272,7 +276,7 @@ input[type='radio']:checked:after {
     min-height: 50%;
     display: flex;
     flex-flow: column nowrap;
-    /* margin-top: 8rem; */
+    margin-top: 8.5rem;
     position: fixed;
     right: 0;
     z-index: 9;
