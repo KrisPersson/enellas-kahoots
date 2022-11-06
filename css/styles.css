@@ -10,7 +10,7 @@ body {
     width: 100vw;
     max-width: 100vw;
     min-height: 100vh;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     background: linear-gradient(90deg, rgb(144, 202, 222), rgb(137, 196, 215));
     font-family: "Rubik", sans-serif;
     overflow: hidden;
